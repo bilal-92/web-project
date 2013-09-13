@@ -217,6 +217,10 @@ font-size: 14px;
 	margin: 3px 7px 0 0;
 	width: 175px;
 }
+input:focus{
+	border: 1px solid #4393bb;
+	box-shadow: 0 0 4px #4393A5;
+}
 .outer_join_div{
 	padding-left: 25px;
 }
