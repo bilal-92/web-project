@@ -208,3 +208,94 @@ font-size: 11px;
 	margin-left: 122px;
 }
 
+
+#footer li
+{
+    padding-right:0.75em;
+    border-right:1px solid #ccc; 
+    margin-right:8px;
+    padding-right:8px;
+    margin-left:0;
+    margin-bottom:3px;
+    list-style:none;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+#navigator, #Linkedinstuff
+{
+    font-size:13px;
+    line-height:17px;
+    clear:both;
+    display:block;
+}
+
+#footer ul
+{
+    margin-top:7px;
+    padding:0 0 0 0;
+    }
+
+#navigator
+{
+    margin-top:15px;
+    }
+
+#navigator, #Linkedinstuff
+{
+     margin-left:0px;
+}
+
+#navigator li, #Linkedinstuff li
+{
+   margin-top:5px;
+}
+
+#privacystuff
+{
+    margin-left:0px;
+    font-size:100%;
+    font-weight:inherit;
+    font-style:inherit;
+    font-family:inherit;
+    vertical-align:baseline;
+    display:block;
+    clear:both;
+ 
+}
+  
+#footer a:hover
+{
+   text-decoration:underline;
+}
+  
+#header ul, #footer ul 
+{ 
+    list-style:none;
+ } 
+ 
+ 
+#footer li.last
+{
+    border:0;
+}
+
+
+ #footer
+{
+   
+    clear:both;
+    margin-right:auto;
+    margin-left:auto;
+    line-height:14px;    
+   
+}
+
+#footer li{
+	display:inline;
+}
+
+#logo1 {
+    vertical-align: baseline;
+    color: rgb(102, 102, 102);
+}

@@ -1,3 +1,14 @@
+﻿
+
+
+a:hover{
+    color:#0077b5;
+text-decoration: underline;
+}
+a {
+color: #0077b5;
+text-decoration: none;
+}
 
 #header {
 	background-color: #3f3f3f;
@@ -22,15 +33,26 @@
 	left:0px;
 
 }
+#header ul{
+    display: block;
+}
+#header .header_div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 974px;
+    position: relative;
+}
 
+}
 #header a
 {
-    color:inherit;
+/*    color:inherit;*/
     }
 
 .top_right_ul_style
 {
 	float: right;
+    margin: 0px;
 }
 .top_right_li_style{
 	float: left;
@@ -80,11 +102,11 @@
 }
 
 .header .menu a.intro {
-    background: url("images/icon_intro_79x49_v1.png") no-repeat scroll 35px 0px transparent;
+    background: url("./images/icon_intro_79x49_v1.png") no-repeat scroll 35px 0px transparent;
 }
 
 .header .menu a.info-collected {
-    background: url("images/icon_infocollected_44x49_v1.png") no-repeat scroll 53px 0px transparent;
+    background: url("./images/icon_infocollected_44x49_v1.png") no-repeat scroll 53px 0px transparent;
 }
 
 .header .menu a {
@@ -102,7 +124,7 @@
     font-size:13px;
     color:#666;
     font-weight:normal;
-    background:url("images/sprite_guesthome_v2.png") no-repeat;
+    background:url("./images/sprite_guesthome_v2.png") no-repeat;
     line-height:1.2;
 	margin: 0 0 6px;
 }
@@ -132,12 +154,11 @@
 	font-size: 13px;
 	cursor: pointer;
 	display: block;
-
 }
 
 #whatislinkedin
 {
-	background-image:url("images/texture_grain.png");
+	background-image:url("./images/texture_grain.png");
 	
 	position:absolute;
 }
@@ -249,14 +270,14 @@
 
 .whiteback #image1
 {
-	background: url("images/icon_one.png") no-repeat;
+	background: url("./images/icon_one.png") no-repeat;
 	height:227px;
 	width:auto;
 }
 
 .whiteback #image2
 {
-	background: url("images/icon_two.png") no-repeat;
+	background: url("./images/icon_two.png") no-repeat;
 	height:227px;
 	width:auto;
 	
@@ -266,7 +287,7 @@
 
 .whiteback #image3
 {
-	background: url("images/icon_three.png") no-repeat;
+	background: url("./images/icon_three.png") no-repeat;
 	height:181px;
 	width:auto;
 	
@@ -338,13 +359,38 @@ body
     color:rgb(0, 0, 0);
 }    
 
-#logo 
-{ 
-    float:left; 
-    padding-top:0.7em;
-    padding-left:12em; 
-    color:White; 
-} 
+
+.links:hover{
+    text-decoration: none;
+}
+.links 
+{
+    padding: 13px 10px 14px 10px;
+    color: #D7D7D7;
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    display: block;
+
+}
+
+#logo
+{
+    background: url('./images/logo1.png') left center no-repeat;
+    width: 93px;
+    margin-left: 0px;
+    margin-right: 5px;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 3px;
+    display: block;
+    height: 36px;
+    position: relative;
+    left: -1px;
+    float: left;
+}
+ 
  
 #signinstuff 
 { 
@@ -395,7 +441,7 @@ body
 
 
 h2#info-collected {
-    background: url("images/icon_infocollected_60x66_v1.png") no-repeat scroll 0px 0px transparent;
+    background: url("./images/icon_infocollected_60x66_v1.png") no-repeat scroll 0px 0px transparent;
     padding-left: 80px;
     min-height: 66px;
     height: auto;
@@ -403,15 +449,15 @@ h2#info-collected {
 }
 
 .header .menu a.uses-sharing-per-info {
-    background: url("images/icon_usessharingpersinfo_61x49_v1.png") no-repeat scroll 44px 0px transparent;
+    background: url("./images/icon_usessharingpersinfo_61x49_v1.png") no-repeat scroll 44px 0px transparent;
 }
 
 .header .menu a.choices-oblig {
-    background: url("images/icon_choicesoblig_42x49_v1.png") no-repeat scroll 54px 0px transparent;
+    background: url("./images/icon_choicesoblig_42x49_v1.png") no-repeat scroll 54px 0px transparent;
 }
 
 .header .menu a.important-info {
-    background: url("images/icon_importantinfo_48x49_v1.png") no-repeat scroll 51px 0px transparent;
+    background: url("./images/icon_importantinfo_48x49_v1.png") no-repeat scroll 51px 0px transparent;
 }
 
 .menu a:hover
@@ -519,12 +565,12 @@ h3.copy-header {
  }
 
 
-a:hover
+a:hover, #header a:hover
 {
     color: rgb(46, 141, 215);
  }
  
-#footer a:hover
+#footer a:hover, #heaeder a:hover
 {
    text-decoration:underline;
 }
@@ -533,8 +579,9 @@ a:hover
 { 
     list-style:none;
  } 
-  
-#header li, #footer li  
+
+/*#header li*/  
+ #footer li  
 { 
     margin-right:2em; 
 }
@@ -657,7 +704,7 @@ h3
 }
 
 .brief-copy .safety-center {
-    background: url("images/icon_shield_31x35.png") no-repeat scroll 0px 0px transparent;
+    background: url("./images/icon_shield_31x35.png") no-repeat scroll 0px 0px transparent;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
@@ -669,7 +716,7 @@ h3
 }
 
 h2#important-info {
-    background: url("images/icon_importantinfo_52x53_v1.png") no-repeat scroll 0px 0px transparent;
+    background: url("./images/icon_importantinfo_52x53_v1.png") no-repeat scroll 0px 0px transparent;
     padding-left: 72px;
     min-height: 53px;
     height: auto;
@@ -677,7 +724,7 @@ h2#important-info {
 }
 
 h2#choices-oblig {
-    background: url("images/icon_choicesoblig_56x66_v1.png") no-repeat scroll 0px 0px transparent;
+    background: url("./images/icon_choicesoblig_56x66_v1.png") no-repeat scroll 0px 0px transparent;
     padding-left: 76px;
     min-height: 66px;
     height: auto;
@@ -685,7 +732,7 @@ h2#choices-oblig {
 }
 
 h2#info-collected {
-    background: url("images/icon_infocollected_60x66_v1.png") no-repeat scroll 0px 0px transparent;
+    background: url("./images/icon_infocollected_60x66_v1.png") no-repeat scroll 0px 0px transparent;
     padding-left: 80px;
     min-height: 66px;
     height: auto;
@@ -693,7 +740,7 @@ h2#info-collected {
 }
 
 h2#uses-sharing-per-info {
-    background: url("images/icon_usessharingpersinfo_83x66_v1.png") no-repeat scroll 0px 0px transparent;
+    background: url("./images/icon_usessharingpersinfo_83x66_v1.png") no-repeat scroll 0px 0px transparent;
     padding-left: 103px;
     min-height: 66px;
     height: auto;
@@ -701,7 +748,7 @@ h2#uses-sharing-per-info {
 }
 
 h2#intro {
-    background: url("images/icon_intro_60x37_v1.png") no-repeat scroll 0px 0px transparent;
+    background: url("./images/icon_intro_60x37_v1.png") no-repeat scroll 0px 0px transparent;
     padding-left: 80px;
     min-height: 37px;
     height: auto;
@@ -755,7 +802,7 @@ h2#introduction {
 
 #user-agreement, #privacy_policy
 {
-    background: url("images/texture_grain.png") repeat scroll 0% 0% rgb(233, 233, 233);
+    background: url("./images/texture_grain.png") repeat scroll 0% 0% rgb(233, 233, 233);
     line-height: 1;
     }
 
@@ -819,7 +866,7 @@ a {
 }
 
 .header {
-    background: url("images/texture_hero.png") no-repeat scroll 0px 0px transparent;
+    background: url("./images/texture_hero.png") no-repeat scroll 0px 0px transparent;
 }
 
 .header .philosophy .description {
